@@ -1,0 +1,511 @@
+<mjml>
+  <mj-head>
+    <mj-title>Prevention Network Newsletter</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" />
+    <mj-attributes>
+      <mj-breakpoint width="400px" />
+
+      <mj-class name="btn-dark" background-color="#401c6b" font-family="Poppins,sans-serif" font-weight="600" />
+    </mj-attributes>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+
+    <mj-style inline="inline">
+      .bg-color-1 {
+        background-image: linear-gradient(#290857, #8761B5);
+      }
+
+      .bg-color-2 {
+        background-image: linear-gradient(#8761B5, #A378D9);
+      }
+
+      .bg-color-3 {
+        background-image: linear-gradient(#A378D9, #ffffff);
+      }
+
+			.card {
+        background-color: #a378d9;
+        border-radius: 5px;
+        box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 25%);
+      }
+
+      h1,
+      h2,
+        {
+        color: #ffffff;
+        font-family: Poppins, sans-serif;
+        font-size: 22px;
+        padding: 5px
+      }
+
+			p{
+				color: #ffffff;
+        font-family:
+          Montserrat, sans-serif;
+			}
+
+			.title-text h1, h2{
+				border: 4px solid #ffffff;
+			}
+
+      .section-title div {
+        width: 250px;
+      }
+
+      .events-dates p, b {
+        font-family: Poppins,
+          sans-serif;
+					color: #ffffff;
+      }
+
+      .content-text td {
+        padding: 25px;
+      }
+
+      .content-text h3,
+      p {
+        color: #290857;
+      }
+
+      .grants-article-txt h3 {
+        color: #290857;
+        font-family: Poppins, sans-serif;
+      }
+
+      .grants-article-txt p {
+        color: #290857;
+				width: 70%;
+        margin: 0 auto;
+				font-family:
+          Montserrat, sans-serif;
+      }
+
+      .grants-article-txt a {
+        color: #290857;
+        font-weight: 600;
+        font-family: Poppins, sans-serif;
+      }
+
+			.about-title h2{
+				border: none;
+				border-bottom: 2px solid #ffffff;
+			}
+
+			.about-title div{
+				width: 130px;
+			}
+
+			.about-text p{
+				color: #ffffff;
+				line-height: 1.6;
+			}
+
+			.programs-title h2{
+        color: #290857;
+			}
+
+			.footer-text p{
+				font-size: 12px;
+				margin: 0px;
+        padding: 3px;
+			}
+
+			.footer-text a {
+        color: #a378d9;
+      }
+
+			.footer-links a{
+				font-size: 12px;
+        color: #290857;
+			}
+
+			.footer-image a{
+        text-decoration: none;
+        color: #290857;
+        font-size: 9px;
+        font-family: Montserrat, sans-serif;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+
+    <mj-section>
+      <mj-column padding="0" >
+        <mj-image src="https://i.ibb.co/G2tSVkF/header.jpg" fluid-on-mobile="true"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- /Header -->
+    </mj-raw>
+
+    <mj-raw>
+      <!-- Events section -->
+    </mj-raw>
+
+    <mj-section css-class="bg-color-1">
+      <mj-column>
+        <mj-raw>
+          <!-- Events title -->
+        </mj-raw>
+        <mj-text css-class="title-text section-title " align="center">
+          <h1>Upcoming Events</h1>
+        </mj-text>
+
+        <mj-raw>
+          <!-- Events date -->
+        </mj-raw>
+        <mj-text css-class="events-dates" align="center">
+          <p><b>March 14th:</b> Elementum Curabitur Vitae</p>
+          <p><b>March 18th:</b> Auctor Augue Mauris</p>
+          <p><b>March 23rd:</b> Pulvinar Proin Gravida</p>
+          <p><b>March 30th:</b> Fringilla Phasellus Faucibus</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- /Events section -->
+    </mj-raw>
+
+    <mj-raw>
+      <!-- Programs section -->
+    </mj-raw>
+    <mj-section css-class="bg-color-2">
+      <mj-column>
+        <mj-raw>
+          <!-- Program update title -->
+        </mj-raw>
+        <mj-text css-class="title-text section-title " align="center">
+          <h2>Program Updates</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Programs content -->
+    </mj-raw>
+    <mj-section background-color="#A378D9">
+      <mj-raw>
+        <!-- Article 1 -->
+      </mj-raw>
+      <mj-column vertical-align="middle">
+        <mj-image src="assets/assets-grants.png" border-radius="5%" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text css-class="content-text" align="center" padding="15px">
+          <mj-raw>
+            <!-- Article 1 title -->
+          </mj-raw>
+
+          <h3>Tincidunt Augue Interde</h3>
+
+          <mj-raw>
+            <!-- Article 1 paragrapgh -->
+          </mj-raw>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
+            quis lectus nulla at volutpat diam ut. Amet risus nullam eget felis
+            eget nunc. Dignissim diam quis enim lobortis scelerisque fermentum.
+            Id aliquet lectus proin nibh nisl condimentum id venenatis.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 2 -->
+    </mj-raw>
+    <mj-section background-color="#A378D9" direction="rtl">
+      <mj-column vertical-align="middle">
+        <mj-image src="assets/assets-team.png" border-radius="5%" href="#" target="blank">
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-text css-class="content-text
+				" align="center" padding="15px">
+          <mj-raw>
+            <!-- Article 1 title -->
+          </mj-raw>
+
+          <h3>Tincidunt Augue Interde</h3>
+
+          <mj-raw>
+            <!-- Article 1 paragrapgh -->
+          </mj-raw>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
+            quis lectus nulla at volutpat diam ut. Amet risus nullam eget felis
+            eget nunc. Dignissim diam quis enim lobortis scelerisque fermentum.
+            Id aliquet lectus proin nibh nisl condimentum id venenatis.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#A378D9">
+      <mj-raw>
+        <!-- Article 3 -->
+      </mj-raw>
+      <mj-column vertical-align="middle">
+        <mj-image src="assets/assets-desk.png" border-radius="5%" />
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text css-class="content-text" align="center" padding="15px">
+          <mj-raw>
+            <!-- Article 3 title -->
+          </mj-raw>
+
+          <h3>Tincidunt Augue Interde</h3>
+
+          <mj-raw>
+            <!-- Article 3 paragrapgh -->
+          </mj-raw>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
+            quis lectus nulla at volutpat diam ut. Amet risus nullam eget felis
+            eget nunc. Dignissim diam quis enim lobortis scelerisque fermentum.
+            Id aliquet lectus proin nibh nisl condimentum id venenatis.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#A378D9">
+      <mj-column>
+        <mj-button mj-class="btn-dark">
+          View All Updates
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- /Programs section -->
+    </mj-raw>
+
+
+    <mj-raw>
+      <!-- Grants section -->
+    </mj-raw>
+    <mj-section css-class="bg-color-3">
+      <mj-column>
+        <mj-raw>
+          <!-- Section Title -->
+        </mj-raw>
+        <mj-text css-class="title-text section-title " align="center">
+          <h2>New Grants</h2>
+        </mj-text>
+
+        <mj-raw>
+          <!-- Image -->
+        </mj-raw>
+        <mj-image src="images/450x450.jpg" width="150px" />
+
+        <mj-raw>
+          <!-- Article Content -->
+        </mj-raw>
+        <mj-text css-class="grants-article-txt" align="center" padding="25px 50px 25px 50px">
+          <h3>Quis Viverra Nibh</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br> <a href="#">Read more...</a>
+          </p>
+        </mj-text>
+
+
+        <mj-raw>
+          <!-- Image 2 -->
+        </mj-raw>
+        <mj-image src="images/450x450.jpg" width="150px" />
+
+        <mj-raw>
+          <!-- Article Content 2 -->
+        </mj-raw>
+        <mj-text css-class="grants-article-txt" align="center" padding="25px 50px 25px 50px">
+          <h3>Quisque Sagittis Purus Sit</h3>
+          <p>lectus magna fringilla urna porttitor rhoncus dolor purus
+          <br> <a href="#">Read more...</a>
+          </p>
+        </mj-text>
+
+
+        <mj-raw>
+          <!-- Image 3 -->
+        </mj-raw>
+        <mj-image src="images/450x450.jpg" width="150px" />
+
+        <mj-raw>
+          <!-- Article Content 3 -->
+        </mj-raw>
+        <mj-text css-class="grants-article-txt" align="center" padding="25px 50px 25px 50px">
+          <h3>Fringilla Phasellus</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <br> <a href="#">Read more...</a>
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- /Grants section -->
+    </mj-raw>
+
+
+
+		<mj-raw>
+      <!-- About us section -->
+    </mj-raw>
+
+		<mj-raw>
+			<!-- Logo -->
+		</mj-raw>
+		<mj-section>
+			<mj-column>
+				<mj-image src="logos/mpn_color.png" width="200px"/>
+			</mj-column>
+		</mj-section>
+
+		<mj-section>
+      <mj-column css-class="card" padding="30px" width="80%">
+
+        <mj-text css-class="about-title" align="center" padding="0">
+          <mj-raw>
+            <!-- Title for footer box -->
+          </mj-raw>
+          <h2>About Us</h2>
+        </mj-text>
+
+        <mj-text css-class="about-text" padding="5px">
+          <mj-raw>
+            <!-- Paragraph for heading box -->
+          </mj-raw>
+          <p>
+            Prevention Network is a statewide not-for-profit that aims to cultivate healthy communities across Michigan by providing substance misuse prevention resources, technical assistance, and support to all 83 Michigan counties. We strive to bridge the gap between research and practice for the enhanced effectiveness of local prevention efforts.
+          </p>
+          <p>
+            We are comprehensive in our makeup, embracing a variety of viewpoints and methods of approach in dealing with substance misuse prevention and related problems. We serve a diverse set of community groups, professional and volunteer, whose autonomy we respect. We provide support through which their effectiveness can be increased and common goals can be identified and achieved.
+          </p>
+        </mj-text>
+      
+			</mj-column>
+		</mj-section>
+
+		<mj-raw>
+      <!-- /About us section -->
+    </mj-raw>
+
+
+		<mj-raw>
+      <!-- Programs section -->
+    </mj-raw>
+
+			<mj-raw>
+      <!-- Programs title -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="programs-title" align="center">
+          <h2>Our Current Programs</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+		<mj-raw>
+      <!-- Programs images section row 1 -->
+    </mj-raw>
+
+    <mj-section>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/PDO_Logo_Color.jpg" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/MIHEN_small.jpg" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/MCRUDlogo.jpg" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/PAMFinalLogo.png" />
+      </mj-column>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- Programs images section row 2 -->
+    </mj-raw>
+
+    <mj-section>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp7.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp5.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp6.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp1.jpg" />
+      </mj-column>
+
+    </mj-section>
+
+		<mj-raw>
+      <!-- /Programs section -->
+    </mj-raw>
+
+
+		<mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+    <mj-section>
+
+      <mj-column>
+
+        <mj-image width="50px" border-radius="5px" src="logos/mpn_smallColor.jpg" />
+
+        <mj-text css-class="footer-text" align="center">
+          <p>Prevention Network</p>
+          <p>3815 W. St. Joseph</p>
+          <p>Suite A500, Lansing, MI 48917</p>
+          <br>
+          <a href="#">Unsubscribe</a> | <a href="#">louiseh@preventionnetwork.org</a>
+          <br>
+        </mj-text>
+
+        <mj-text css-class="footer-links" align="center">
+        <a href="#">Constant Contact Data Notice</a>
+        <br>
+        <p>Sent by info@preventionnetwork.org in collaboration with</p>
+        </mj-text>
+
+        <mj-image width="130px" src="logos/constantC.png" />
+        
+        <mj-text css-class="footer-image" align="center">
+        <a href="#">Try email marketing for free today!</a>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+  </mj-body>
+</mjml>

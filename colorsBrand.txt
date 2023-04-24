@@ -1,0 +1,98 @@
+Colors
+
+Shades of Purple
+Dark Purple
+#290857
+
+Purple 
+#401c6b
+
+Lighter Purple
+#613d94
+
+Light Purple
+#8761b5
+
+Lightest Purple
+#a378d9
+
+Font Poppins
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+</style>
+    font-family: 'Poppins', sans-serif;
+
+--------------------------------
+
+Font Monsterri
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+</style>
+
+    font-family: 'Montserrat', sans-serif;
+
+---------------------------------------------------
+
+Assets
+
+https://ibb.co/XsnxtR7
+https://i.ibb.co/QNWvMwP/assets-desk.jpg
+
+https://ibb.co/vZ6RD0D
+https://i.ibb.co/J5wgCDC/assets-grants.jpg
+
+https://ibb.co/3Wf8nVy
+https://i.ibb.co/5vYzPCW/assets-team.jpg
+
+https://ibb.co/By234Bj
+https://i.ibb.co/PcGjTg4/assets-work.jpg
+
+Images
+
+https://ibb.co/NmpJsK2
+https://i.ibb.co/4YMX7pR/pn-header.jpg
+
+https://ibb.co/982J0m4
+https://i.ibb.co/1vK3NYX/450x450.jpg
+
+https://ibb.co/Ph9H54t
+https://i.ibb.co/G2tSVkF/header.jpg
+
+
+Logos
+
+https://ibb.co/SxdHVwq
+https://i.ibb.co/GJtGCQg/assets-mp1.jpg
+
+https://ibb.co/nRrPYFV
+https://i.ibb.co/pn2hMSs/mpn-color.jpg
+
+https://ibb.co/Z1XNfp0
+https://i.ibb.co/qFjxD3v/mpn-small-Color.jpg
+
+https://ibb.co/rpz7NzY
+https://i.ibb.co/ykZf7Zt/PAMFinal-Logo.jpg
+
+https://ibb.co/Fwfmm97
+https://i.ibb.co/1qp7732/constant-C.png
+
+https://ibb.co/SyTVJ6r
+https://i.ibb.co/vq5LDcY/assets-mp5.png
+
+https://ibb.co/VtjszsD
+https://i.ibb.co/g3jxfxw/assets-mp6.png
+
+https://ibb.co/Qms52nc
+https://i.ibb.co/NYw48p3/assets-mp7.png
+
+https://ibb.co/xD5G050
+https://i.ibb.co/pxXZ8X8/MCRUDlogo.jpg
+
+https://ibb.co/D9QY0xt
+https://i.ibb.co/bsXFcSP/MIHEN-small.jpg
+
+https://ibb.co/cktQMRv
+https://i.ibb.co/S50BWHx/PDO-Logo-Color.jpg
+
+https://ibb.co/v4pJCZJ
+https://i.ibb.co/jkmL9gL/PAMFinal-Logo.png
